@@ -59,3 +59,12 @@ test("subtracts from player's health", () => {
     expect(player.health).toBe(0);
 
 });
+
+// verifying a player's attack value is within range (player's strength - 5 <= player's attack value <= player's strength + 5)
+test("get player's attack value", () => {
+    const player = new Player('Dave');
+    player.strength = 10;
+
+    expect(player.getAttackValue()).toBeGreaterThanOrEqual(5);
+    expect(player.getAttackValue()).toBeLessThanOrEqual(15);
+});
