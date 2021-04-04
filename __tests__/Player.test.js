@@ -2,7 +2,7 @@ const Player = require('../lib/Player');
 const Potion = require('../lib/Potion');
 
 jest.mock('../lib/Potion.js');
-console.log(new Potion());
+// console.log(new Potion());
 
 //check existence of player object
 test('creates a player object', () => {
