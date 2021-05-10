@@ -31,7 +31,7 @@ Please first install node.js and then run the following command into your termin
 
 You can use the following methods to test the application:
 * Enter command "npm run test" in your terminal. This command will run the tests written for this application.
-* Run command "node index" multiple time in your terminal. Each time include or exclude some sections and checkout the results.
+* Run command "node app.js" in your terminal and play multiple times using different approaches.
 
 ## Screenshots
 
